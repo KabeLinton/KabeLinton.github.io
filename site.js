@@ -15,3 +15,9 @@ if (isAfternoon){
 if (isEvening){
     document.querySelector('#welcome').textContent = 'Good Evening'
    }
+
+//secret message
+   const key = "It's a secret to everybody."
+   const secret = "It's Dangerous to go Alone"
+
+   localStorage.setItem(key, JSON.stringify(secret))
